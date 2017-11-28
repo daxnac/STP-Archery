@@ -3,7 +3,14 @@ img {
 
 }
 
+.instructors {
+	clear: both;
+}
+
 .coaches {
 	float: left;
 	clear: both;
+	margin: 0;
+	padding: 0;
+	position: relative;
 }
