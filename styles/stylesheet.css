@@ -40,22 +40,28 @@ section {
 .typography section {
     margin: 0;
 }
+
 section h2 {
     color:  #666666;
     border-bottom: 1.5px solid #666666;
 }
-.head-style h1 {
+
+.head1 {
     font-size: 2em;
+    font-weight: 600;
     color:  #94c840;
 }
+
 .head-style h2 {
     font-size: 1.5em;
     color:  #94c840;
     border: none;
 }
+
 .head-style h3 {
     color:  #523e33;
 }
+
 .head-style h4 {
     color:  #94c840;
 }
@@ -74,6 +80,7 @@ section h2 {
     border: none;
     cursor: pointer;
 }
+
 .btn-hover {
     background: #d6e8b8;
     padding: 8px 20px 8px 20px;
