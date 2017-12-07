@@ -69,21 +69,45 @@ header h1 {
     padding-top: 20px;
  }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 nav {
     background-color: #94c840;
-
-}
+ }
 
 nav li {
     text-decoration: none;
     display: inline-block;
+    padding: 5px;
+}
+
+nav li:hover {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    background-color: #d6e8b8;
 }
 
 nav li a {
     text-decoration: none;
     padding: 20px;
+    color: white;
 }
+
+h3 {
+   color: #94c840;
+ }
+
+aside {
+    border: 0.5px solid #523e33;
+    text-align: center;
+}
+.img-container {
+    background-image: url("../images/class1.jpg");
+    background-size: 100%;
+}
+.intro {
+    margin: 20px;
+    color: ghostwhite;
+    background-color: aliceblue;
+    opacity: 0.5;
+}
+
