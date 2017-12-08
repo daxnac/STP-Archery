@@ -192,7 +192,6 @@ aside p {
 
 .lessons section:nth-child(1n) a:hover {
     background: linear-gradient( #82b332, #658b27); 
-    font-family: 'Cutive', serif;
     color: #523e33;
     border: none;
     padding: 10px 15px 10px 15px;
@@ -209,5 +208,5 @@ aside p {
 }
 
 footer {
-  text-align: center
+    text-align: center
 }
