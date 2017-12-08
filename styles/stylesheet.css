@@ -53,13 +53,13 @@ body {
 }
 
 header img {
-    max-width: 10%;
+    width: 9%;
     height: auto;
 }
 
 header h1 {
     float: right;
-    padding-top: 20px;
+    padding-top: 25px;
  }
 
 nav {
@@ -71,7 +71,8 @@ nav {
 nav li {
     text-decoration: none;
     display: inline-block;
-    padding: 5px;
+    padding: 10px 5px 10px 5px;
+    font-size: 18px;
 }
 nav li a {
     text-decoration: none;
@@ -81,7 +82,7 @@ nav li a {
 nav li:hover {
     text-decoration: none;
     display: inline-block;
-    padding: 5px;
+    padding: 10px 5px 10px 5px;
     transition: background-color 0.5s ease;
     background-color: #d6e8b8;
    
@@ -106,15 +107,19 @@ aside h3 {
 .img-container {
     background-image: url("../images/class1.jpg");
     background-size: 100%;
-    
+    background-repeat: no-repeat;
+    background-position: center; 
+  
 }
 .intro {
     margin: 20px;
     color: ghostwhite;
-    background-color: rgba(82, 62, 51, .5);    
+    background-color: rgba(13, 13, 13, .5);    
     padding: 10px;
 }
 
+.intro p {
+}
 
 .lessons section:nth-child(1) {
     background-color: #94c840;
@@ -137,15 +142,27 @@ aside h3 {
     padding: 5px;
     text-align: center;
     font-size: 10px;
-    color: dimgrey
+    color: dimgrey;
 }
 
 button {
-    background: linear-gradient(#94c840, #d6e8b8); 
+    background: linear-gradient(#e6e6e6, #567722); 
     font-family: 'Cutive', serif;
     color: white;
-    border: 1px solid #94c840;
-    padding: 10px;
+    border: none;
+    padding: 10px 15px 10px 15px;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow:  1px 1px 10px #0d0d0d;
+}
+
+button:hover {
+    background: linear-gradient(#e6e6e6, #567722); 
+    font-family: 'Cutive', serif;
+    color: #523e33;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:  1px 1px 15px #0d0d0d;
 }
