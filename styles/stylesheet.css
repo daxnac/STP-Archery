@@ -19,17 +19,18 @@
 .group:before,
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
 
 /*  GRID OF FOUR  */
 .span_4_of_4 {
 	width: 100%;
 }
+
 .span_3_of_4 {
 	width: 74.6%;
 }
 .span_2_of_4 {
 	width: 49.2%;
+  
 }
 .span_1_of_4 {
 	width: 21.8%;
@@ -41,7 +42,6 @@
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
 }
 /*   END 4 GRID   */
-
 
 body {
     font-family: 'Cutive', serif;
@@ -102,8 +102,14 @@ nav li a:hover {
     color: #523e33;
 }
 
-/*  Section content styles */
+/*  Section Aside styles */
 
+.intro {
+    margin: 20px;
+    color: ghostwhite;
+    background-color: rgba(13, 13, 13, .5);    
+    padding: 10px;
+}
 .section {
     margin: 0 15%;
 }
@@ -138,17 +144,9 @@ aside p {
     background-position: center; 
 }
 
-.intro {
-    margin: 20px;
-    color: ghostwhite;
-    background-color: rgba(13, 13, 13, .5);    
-    padding: 10px;
-}
-
 .lessons section:nth-child(1) {
     background-color: #94c840;
     font-size: 0.9rem;
-    margin: 3px;
     padding: 10px;
     color: white;
     height: auto;
@@ -172,7 +170,6 @@ aside p {
 .lessons section:nth-child(2) {
     background-color: #94c840;
     font-size: 0.9rem;
-    margin: 3px;;
     padding: 10px;
     color: white;
     height: auto;
@@ -186,16 +183,9 @@ aside p {
 }
 
 .lessons aside p {
-    color: dimgrey;
+    color: grey;
 }
 
-.policy {
-    border: 1px solid grey;
-    padding: 5px;
-    text-align: center;
-    font-size: 10px;
-    color: dimgrey;
-}
 
 .lessons section:nth-child(1n) a {
     background: linear-gradient(#82b332, #658b27); 
@@ -218,4 +208,15 @@ aside p {
     border-radius: 5px;
     cursor: pointer;
     transition: color 0.5s ease;
+}
+
+.policy {
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 10px;
+    color: slategray;
+}
+
+footer {
+  text-align: center
 }
