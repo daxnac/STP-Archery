@@ -126,6 +126,9 @@ nav li a:hover {
 
 aside {
     padding: 6px;
+    border: 0.5px solid #94c840;
+    color: white;
+    text-align: center;
 }
 
 aside h4 {
@@ -174,18 +177,6 @@ aside p {
     color: white;
     height: auto;
 }
-
-.lessons aside {
-    border: 0.5px solid #94c840;
-    font-size: 0.9rem;
-    color: white;
-    text-align: center;
-}
-
-.lessons aside p {
-    color: grey;
-}
-
 
 .lessons section:nth-child(1n) a {
     background: linear-gradient(#82b332, #658b27); 
