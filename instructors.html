@@ -2,34 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>STP Archery</title>
-  <link rel="stylesheet" href="styles/stylesheet.css">
+  <title>Home - STP Archery</title>
+  <!-- STP Archery Logo within the header -->
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" /> 
+  <script src="https://use.fontawesome.com/d42c9f5feb.js"></script>
+  <!-- Google Font Cutive for titles and Montserrat or Open Sans for body text -->
+  <link href="https://fonts.googleapis.com/css?family=Cutive|Montserrat|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 <body>
-  <header>
-    <!-- Logo and navigation-->
-    <img src="images/logo.jpg" alt="logo">
-    <h1>STP Archery</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="instructors.html">Instuctors</a></li>
-      </ul>
-    </nav>
-  </header>
-  <article>
+  <!-- Header/Logo Section for all pages-->
+  <section class="section group">
+    <div class="col span_4_of_4">
+      <header>
+        <a href="index.html"><img src="images/logo.jpg" alt="STP Archery Logo"></a>
+        <h1>Straight to the Point Archery</h1>
+      </header>
+    </div>
+  </section>
+  <!-- Nav Section for all pages-->
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="instructors.html">Instructors</a></li>
+    </ul>
+  </nav>
+   <article>
     <h2>Instructors</h2>
-
 	<hr />
-
-    <!-- Class instructor section Alan section-->
-    <section class="instructors">
+    
+	<section class="instructors">
       <img src="images/derek-jenkins-instructor.jpg" alt="Derek Jenkins" class="coaches">
       <h3>Derek Jenkins</h3>
       <p>Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
     </section>
+	
     <section class="instructors">
       <img src="images/amy-smith-instructor.jpg" alt="Amy Smith" class="coaches">
       <h3>Amy Smith</h3>
@@ -39,19 +48,21 @@
     <section class="instructors">
       <img src="images/nathan-lee-instructor.jpg" alt="Nathan Lee" class="coaches">
       <h3>Nathan Lee</h3>
-      <p>Nathan is an USA Archery Certified Level 3 NTS &#150; Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
+      <p>Nathan is an USA Archery Certified Level 3 NTS Coach and has been teaching archery since 2009. He has been interested in archery since he knocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
     </section>
   </article>
-  <footer>
-        <!-- footer with copyrite info & contact email -->
-        <nav class= "footer-nav">
-          <h4>Contact Us!</h4>
-          <p>528 Nock Point Ln | Tacoma, WA 98412 | Ph: (253) 555-1010 | Email: <a href="mailto:archery-education@example.com" target="_blank"> archery-education@example.com</a> </p>
-          <!-- Google Map-->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2680.2364334910108!2d-122.32920748423813!3d47.79625237919771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901aa15e85d991%3A0x2b6aa1315a8d11cf!2sThe+Nock+Point!5e0!3m2!1sen!2sus!4v1511898402344" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-          
-          <h5>&copy;STP Archery 2017. All rights reserved</h5>
-        </nav>
+
+<footer>
+    <!-- footer with copyrite info & contact email -->
+    <nav class= "footer-nav">
+      <h4>Contact Us!</h4>
+      <p>528 Nock Point Ln | Tacoma, WA 98412 | Ph: (253) 555-1010 | Email: <a href="mailto:archery-education@example.com" target="_blank"> archery-education@example.com</a> </p>
+        <!--Google Map-->
+      <div class=mapWrapper>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2680.2364334910108!2d-122.32920748423813!3d47.79625237919771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901aa15e85d991%3A0x2b6aa1315a8d11cf!2sThe+Nock+Point!5e0!3m2!1sen!2sus!4v1511898402344" allowfullscreen></iframe>
+      </div>
+      <h5>&copy;STP Archery 2017. All rights reserved</h5>
+    </nav>
   </footer>
 </body>
 
