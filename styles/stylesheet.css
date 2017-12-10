@@ -50,6 +50,11 @@
 img { clear:both;
     width: 15rem;
 }
+/*  About Page image*/
+.full {
+  width: 100%;
+  
+}
 
 body {
     font-family: 'Cutive', serif;
@@ -115,11 +120,12 @@ nav li a:hover {
 .intro {
     margin: 20px;
     color: ghostwhite;
-    background-color: rgba(13, 13, 13, .5);    
+    background-color: rgba(13, 13, 13, .65);    
     padding: 10px;
 }
+
 .section {
-    margin: 0 15%;
+    margin: 0 5%;
 }
 
 .section a {
@@ -147,7 +153,7 @@ aside p {
     color: grey;
     font-size: 14px
  }
-
+/*Banner/Intro Section page only*/
 .img-container {
     background-image: url("../images/class1.jpg");
     background-size: cover;
@@ -155,6 +161,29 @@ aside p {
     background-position: center; 
 }
 
+/*Banner/About Section  page only*/
+.img-about {
+    background-image: url("../images/students-competing2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+/*Banner/Services Section  page only*/
+.img-services {
+    background-image: url("../images/archery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+/*Banner/Instructors Section  page only*/
+.img-instructors {
+    background-image: url("../images/archery-targets.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
 .lessons section:nth-child(1) {
     background-color: #94c840;
     font-size: 0.9rem;
