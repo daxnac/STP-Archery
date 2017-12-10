@@ -1,0 +1,136 @@
+/* nav bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h2 {clear: both;}
+
+h1 {float: right;
+   padding-top: 100px;}
+
+header {clear: both;}
+
+
+/* article make center */
+/*article {padding-left: 250px;}*/
+
+/* alan-working */
+
+
+img { clear:both;
+	width: 15rem;
+}
+
+.instructors {
+	clear: both;
+}
+
+.coaches {
+	float: left;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+/*  CLASSES  */
+section.classes {
+    clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+.span_4_of_4 {
+	width: 100%; 
+}
+
+.span_3_of_4 {
+	width: 74.6%; 
+}
+
+.span_2_of_4 {
+	width: 49.2%; 
+}
+
+.span_1_of_4 {
+	width: 23.8%;
+}
+
+/* GRID of THREE */
+.span_1_of_3 {
+  width: 32.2%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+    .span_4_of_4, .span_3_of_4, .span_2_of_4, .span_1_of_4, .span_1_of_3 { width: 100%; }
+
+}
+    
+
+/* from github stylesheet */
+
+h2 {color: #94c840;}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+footer {
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+p { 
+    font-size: 14px;
+    color: #808080;
+}
+section {
+    margin: 20px;
+}
