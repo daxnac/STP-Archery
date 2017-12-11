@@ -35,19 +35,37 @@
 .span_1_of_4 {
 	width: 21.8%;
 }
+/* 3 Grid system */
+.span_1_of_3 {
+    width: 32.2%;
+}
+.span_2_of_3 {
+    width: 62.4%;
+}
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+  .col {  margin: 1% 0 1% 0%; }
+  .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4, .span_1_of_3, .span_2_of_3 { width: 100%; }
 }
 /*   END 4 GRID   */
 
-body {
-    font-family: 'Cutive', serif;
-    margin: 0;
+img { clear:both;
+    width: 15rem;
 }
 
+.hide {
+  display: none;
+}
+body {
+  font-family: 'Cutive', serif;
+  margin: 0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+
+}
 /* Logo Header Styles */
 
  header img {
@@ -107,11 +125,12 @@ nav li a:hover {
 .intro {
     margin: 20px;
     color: ghostwhite;
-    background-color: rgba(13, 13, 13, .5);    
+    background-color: rgba(13, 13, 13, .65);    
     padding: 10px;
 }
+
 .section {
-    margin: 0 15%;
+    margin: 0 5%;
 }
 
 .section a {
@@ -139,7 +158,7 @@ aside p {
     color: grey;
     font-size: 14px
  }
-
+/*Banner/Intro Section page only*/
 .img-container {
     background-image: url("../images/class1.jpg");
     background-size: cover;
@@ -147,6 +166,29 @@ aside p {
     background-position: center; 
 }
 
+/*Banner/About Section  page only*/
+.img-about {
+    background-image: url("../images/students-competing2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+/*Banner/Services Section  page only*/
+.img-services {
+    background-image: url("../images/archery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+/*Banner/Instructors Section  page only*/
+.img-instructors {
+    background-image: url("../images/archery-targets.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
 .lessons section:nth-child(1) {
     background-color: #94c840;
     font-size: 0.9rem;
@@ -203,12 +245,13 @@ aside p {
 .policy {
     border: 1px solid grey;
     text-align: center;
-    font-size: 10px;
+    font-size: 1rem;
     color: slategray;
 }
 
-footer {
-    text-align: center
+.footer-nav {
+    text-align: center;
+    background-color: #94877e;
 }
 /* Map responisiveness css */
 .mapWrapper {
