@@ -89,7 +89,7 @@ nav {
  }
 
 nav ul {
-    margin: 0 2%;
+    margin: 0 3%;
 }
 
 nav li {
@@ -252,4 +252,19 @@ aside p {
 .footer-nav {
     text-align: center;
     background-color: #94877e;
+}
+
+/* Map responisiveness css */
+.mapWrapper {
+    position: relative;
+    padding-bottom: 10%;
+    padding-top: 2em;
+    height: 0;
+}
+.mapWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
 }
