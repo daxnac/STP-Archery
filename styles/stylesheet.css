@@ -130,6 +130,10 @@ nav li a:hover {
     padding: 10px;
 }
 
+h4 {
+  margin: 0; /* Remove margin from Instructor page */
+}
+
 .section {
     margin: 0 5%;
 }
@@ -253,6 +257,7 @@ aside p {
 .footer-nav {
     text-align: center;
     background-color: #94877e;
+    padding: 1rem 0 0; /* added padding to top footer*/
 }
 
 /* Map responisiveness css */
