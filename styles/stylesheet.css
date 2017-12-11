@@ -159,6 +159,13 @@ aside p {
     color: grey;
     font-size: 14px
  }
+/*Remove margin on Instructors page for h4*/ 
+.instructors h4, nav h4, .services h4 {
+  margin: 0;
+}
+
+/*Remove margin on Instructors page for h4*/ 
+
 /*Banner/Intro Section page only*/
 .img-container {
     background-image: url("../images/class1.jpg");
@@ -253,6 +260,7 @@ aside p {
 .footer-nav {
     text-align: center;
     background-color: #94877e;
+    padding-top: 1rem;
 }
 
 /* Map responisiveness css */
