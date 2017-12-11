@@ -39,28 +39,33 @@
 .span_1_of_3 {
     width: 32.2%;
 }
+.span_2_of_3 {
+    width: 62.4%;
+}
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4, .span_1_of_3 { width: 100%; }
+  .col {  margin: 1% 0 1% 0%; }
+  .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4, .span_1_of_3, .span_2_of_3 { width: 100%; }
 }
 /*   END 4 GRID   */
 
 img { clear:both;
     width: 15rem;
 }
-/*  About Page image*/
-.full {
-  width: 100%;
-  
-}
 
+.hide {
+  display: none;
+}
 body {
-    font-family: 'Cutive', serif;
-    margin: 0;
+  font-family: 'Cutive', serif;
+  margin: 0;
 }
 
+p {
+  font-family: 'Open Sans', sans-serif;
+
+}
 /* Logo Header Styles */
 
  header img {
@@ -240,7 +245,7 @@ aside p {
 .policy {
     border: 1px solid grey;
     text-align: center;
-    font-size: 10px;
+    font-size: 1rem;
     color: slategray;
 }
 
