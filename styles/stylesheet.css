@@ -29,11 +29,11 @@
 	width: 74.6%;
 }
 .span_2_of_4 {
-	width: 48%;
+	width: 49.2%;
   
 }
 .span_1_of_4 {
-	width: 22%;
+	width: 21.1%;
 }
 /* 3 Grid system */
 .span_1_of_3 {
@@ -51,7 +51,7 @@
 /*   END 4 GRID   */
 
 img { clear:both;
-    width: 100%;
+    width: 100%; /* changed 15rem to 100% */
 }
 
 .hide {
@@ -66,7 +66,6 @@ body {
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: .9rem;
-
 }
 /* Logo Header Styles */
 
@@ -131,10 +130,6 @@ nav li a:hover {
     padding: 10px;
 }
 
-h4 {
-  margin: 0; /* Remove margin from Instructor page */
-}
-
 .section {
     margin: 0 5%;
 }
@@ -149,21 +144,28 @@ h4 {
     color: #94c840;
 }
 
-aside {
-    padding: 6px;
+.aside {
+    padding: .5rem;
     border: 0.5px solid #94c840;
     color: white;
     text-align: center;
 }
 
-aside h4 {
+.aside h4 {
     color: #94c840;
  }
 
-aside p {
+.aside p {
     color: grey;
-    font-size: 14px
+    font-size: .9rem;
  }
+/*Remove margin on Instructors page for h4*/ 
+.instructors h4, nav h4, .services h4 {
+  margin: 0;
+}
+
+/*Remove margin on Instructors page for h4*/ 
+
 /*Banner/Intro Section page only*/
 .img-container {
     background-image: url("../images/class1.jpg");
@@ -195,7 +197,7 @@ aside p {
     background-repeat: no-repeat;
     background-position: center; 
 }
-.lessons:nth-child(1) {
+.lessons section:nth-child(1) {
     background-color: #94c840;
     font-size: 0.9rem;
     padding: 10px;
@@ -203,7 +205,7 @@ aside p {
     height: auto;
 }
 
-.lessons:nth-child(1) li {
+.lessons section:nth-child(1) li {
     list-style: none;
     display: inline-block;
     padding: 10px;
@@ -211,14 +213,14 @@ aside p {
     border-radius: 5px;    
 }
 
-.lessons:nth-child(1) li:nth-child(2n) {
+.lessons section:nth-child(1) li:nth-child(2n) {
     list-style: none;
     display: inline-block;
     padding: 10px;
     border: none;
 }
 
-.lessons:nth-child(2) {
+.lessons section:nth-child(2) {
     background-color: #94c840;
     font-size: 0.9rem;
     padding: 10px;
@@ -226,7 +228,7 @@ aside p {
     height: auto;
 }
 
-.lessons:nth-child(1n) a {
+.lessons section:nth-child(1n) a {
     background: linear-gradient(#82b332, #658b27); 
     font-family: 'Cutive', serif;
     color: white;
@@ -258,7 +260,7 @@ aside p {
 .footer-nav {
     text-align: center;
     background-color: #94877e;
-    padding: 1rem 0 0; /* added padding to top footer*/
+    padding-top: 1rem;
 }
 
 /* Map responisiveness css */
