@@ -29,11 +29,11 @@
 	width: 74.6%;
 }
 .span_2_of_4 {
-	width: 49.2%;
+	width: 47.3%;
   
 }
 .span_1_of_4 {
-	width: 21.8%;
+	width: 21.1%;
 }
 /* 3 Grid system */
 .span_1_of_3 {
@@ -51,7 +51,7 @@
 /*   END 4 GRID   */
 
 img { clear:both;
-    width: 15rem;
+    width: 100%; /* changed 15rem to 100% */
 }
 
 .hide {
@@ -65,7 +65,7 @@ body {
 
 p {
   font-family: 'Open Sans', sans-serif;
-
+  font-size: .9rem;
 }
 /* Logo Header Styles */
 
@@ -144,20 +144,20 @@ nav li a:hover {
     color: #94c840;
 }
 
-aside {
-    padding: 6px;
+.aside {
+    padding: .5rem;
     border: 0.5px solid #94c840;
     color: white;
     text-align: center;
 }
 
-aside h4 {
+.aside h4 {
     color: #94c840;
  }
 
-aside p {
+.aside p {
     color: grey;
-    font-size: 14px
+    font-size: .9rem;
  }
 /*Remove margin on Instructors page for h4*/ 
 .instructors h4, nav h4, .services h4 {
