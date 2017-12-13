@@ -29,11 +29,11 @@
 	width: 74.6%;
 }
 .span_2_of_4 {
-	width: 49.2%;
+	width: 48%;
   
 }
 .span_1_of_4 {
-	width: 21.8%;
+	width: 22%;
 }
 /* 3 Grid system */
 .span_1_of_3 {
@@ -51,7 +51,7 @@
 /*   END 4 GRID   */
 
 img { clear:both;
-    width: 15rem;
+    width: 100%;
 }
 
 .hide {
@@ -65,6 +65,7 @@ body {
 
 p {
   font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
 
 }
 /* Logo Header Styles */
@@ -194,7 +195,7 @@ aside p {
     background-repeat: no-repeat;
     background-position: center; 
 }
-.lessons section:nth-child(1) {
+.lessons:nth-child(1) {
     background-color: #94c840;
     font-size: 0.9rem;
     padding: 10px;
@@ -202,7 +203,7 @@ aside p {
     height: auto;
 }
 
-.lessons section:nth-child(1) li {
+.lessons:nth-child(1) li {
     list-style: none;
     display: inline-block;
     padding: 10px;
@@ -210,14 +211,14 @@ aside p {
     border-radius: 5px;    
 }
 
-.lessons section:nth-child(1) li:nth-child(2n) {
+.lessons:nth-child(1) li:nth-child(2n) {
     list-style: none;
     display: inline-block;
     padding: 10px;
     border: none;
 }
 
-.lessons section:nth-child(2) {
+.lessons:nth-child(2) {
     background-color: #94c840;
     font-size: 0.9rem;
     padding: 10px;
@@ -225,7 +226,7 @@ aside p {
     height: auto;
 }
 
-.lessons section:nth-child(1n) a {
+.lessons:nth-child(1n) a {
     background: linear-gradient(#82b332, #658b27); 
     font-family: 'Cutive', serif;
     color: white;
