@@ -75,6 +75,7 @@ body {
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: .9rem;
+ 
 }
 /* Logo Header Styles */
 
@@ -274,14 +275,19 @@ nav li a:hover {
     text-align: center;
     font-size: 1rem;
     color: slategray;
+    padding: 1%;
 }
 
 .footer-nav {
     text-align: center;
     background-color:  #523e33 ;
-    padding-top: 1rem;
+    padding: 1rem;
+    color: white;
 }
 
+a {
+  color: white;
+}
 /* Map responisiveness css */
 .mapWrapper {
     position: relative;
@@ -295,4 +301,10 @@ nav li a:hover {
     left: 10%;
     width: 80%;
     height: 100%;
+}
+.socialmedia i {
+  margin: 1rem;
+}
+h5 {
+  margin: 0;
 }
