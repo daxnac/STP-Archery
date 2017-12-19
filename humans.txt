@@ -2,18 +2,23 @@
 
 This prject is part of a UW HTML5 & CSS Group Assignment. This site was for educational purposes only. 
 Name: Adran Nakagawa
+Role: PM, Consistency throughout site, CSS Rework, Instructors page
 Site: https://github.com/Adran5                 
 
 Name: Dax Nacu
+Role: Initial CSS Styling, Header, Home Page
 Site: https://github.com/daxnac                
 
 Name: AlanPortugal
+Role: Services Page
 Site: https://github.com/AlanPortugal
 
 Name: Asa Kleiman
+Role: About Page
 Site: https://github.com/asakleiman        
 
 Name: Jiayu Wu
+Role: Services Page
 Site: https://github.com/wuJiayu1995
                          
 
