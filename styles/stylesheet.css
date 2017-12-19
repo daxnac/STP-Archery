@@ -10,9 +10,15 @@
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1.6%;
+	margin: 1% 0 1% 1.2%;
+    
 }
 
+/*
+.span_1_of_3 {
+  border: 1px solid green;
+}
+*/
 .col:first-child { margin-left: 0; }
 
 /*  GROUPING  */
@@ -21,6 +27,9 @@
 .group:after { clear:both;}
 
 /*  GRID OF FOUR  */
+.span_4_of_5 {
+	width: 98%;
+}
 .span_4_of_4 {
 	width: 100%;
 }
@@ -29,7 +38,7 @@
 	width: 74.6%;
 }
 .span_2_of_4 {
-	width: 48.2%;
+	width: 47.4%;
   
 }
 .span_1_of_4 {
@@ -37,10 +46,10 @@
 }
 /* 3 Grid system */
 .span_1_of_3 {
-    width: 32.2%;
+    width: 32.5%;
 }
 .span_2_of_3 {
-    width: 62.4%;
+    width: 66.3%;
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
@@ -145,7 +154,7 @@ nav li a:hover {
 }
 
 .aside {
-    padding: .5rem;
+    padding: 1%;
     border: 0.5px solid #94c840;
     color: white;
     text-align: center;
@@ -172,6 +181,7 @@ nav li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
+    margin: 1rem 0 0;
 }
 
 /*Banner/About Section  page only*/
@@ -180,6 +190,7 @@ nav li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
+    margin: 1.7rem 0 0;
 }
 
 /*Banner/Services Section  page only*/
@@ -187,7 +198,8 @@ nav li a:hover {
     background-image: url("../images/archery.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
+    margin: 1rem 0 0;
 }
 
 /*Banner/Instructors Section  page only*/
@@ -196,40 +208,47 @@ nav li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
+    margin: 1rem 0 0;
 }
-.lessons section:nth-child(1) {
-    background-color: #94c840;
+.lessons section {
+    background-color: #94877e;
     font-size: 0.9rem;
-    padding: 10px;
+    padding: 1%;
     color: white;
     height: auto;
 }
 
+/*
 .lessons section:nth-child(1) li {
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 1%;
     border: 1px solid white;
     border-radius: 5px;    
 }
+*/
 
+/*
 .lessons section:nth-child(1) li:nth-child(2n) {
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 1%;
     border: none;
 }
+*/
 
+/*
 .lessons section:nth-child(2) {
-    background-color: #94c840;
+    background-color: #523e33 ;
     font-size: 0.9rem;
-    padding: 10px;
+    padding: 1%;
     color: white;
     height: auto;
 }
+*/
 
 .lessons section:nth-child(1n) a {
-    background: linear-gradient(#82b332, #658b27); 
+    background: linear-gradient(#81b234, #94c840); 
     font-family: 'Cutive', serif;
     color: white;
     border: none;
@@ -241,7 +260,7 @@ nav li a:hover {
 }
 
 .lessons section:nth-child(1n) a:hover {
-    background: linear-gradient( #82b332, #658b27); 
+    background: linear-gradient(#c7e09f, #d6e8b8); 
     color: #523e33;
     border: none;
     padding: 10px 15px 10px 15px;
@@ -259,7 +278,7 @@ nav li a:hover {
 
 .footer-nav {
     text-align: center;
-    background-color: #94877e;
+    background-color:  #523e33 ;
     padding-top: 1rem;
 }
 
