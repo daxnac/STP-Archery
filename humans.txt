@@ -1,0 +1,28 @@
+/* TEAM */
+
+This prject is part of a UW HTML5 & CSS Group Assignment. This site was for educational purposes only. 
+Name: Adran Nakagawa
+Site: https://github.com/Adran5                 
+
+Name: Dax Nacu
+Site: https://github.com/daxnac                
+
+Name: AlanPortugal
+Site: https://github.com/AlanPortugal
+
+Name: Asa Kleiman
+Site: https://github.com/asakleiman        
+
+Name: Jiayu Wu
+Site: https://github.com/wuJiayu1995
+                         
+
+/* THANKS */
+Big thanks to our professor Jeremie Leverich and TA Katherine Pak.
+
+
+                            
+/* SITE */                            
+Last update: 2017/12/18                
+Standards: HTML5, CSS3
+Components: Font Awesome, Google Fonts
